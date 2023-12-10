@@ -1,0 +1,7 @@
+spring:
+# Registro/descubrimiento     
+  application:
+    name: viajes-reservas
+  config:
+    import:
+      optional:configserver:http://192.168.43.170:9888 # IPv4 de mi equipo conectado al movil + IP contenedor del serv config
